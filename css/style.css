@@ -153,32 +153,6 @@ header .navbar ul li a:hover{
     color:#fff;
 }
 
-.home .share{
-    position: absolute;
-    left:50%; bottom:5rem;
-    transform: translateX(-50%);
-    display: flex;
-    padding:1rem;
-    border-radius: 1rem;
-    background: rgba(255,255,255,.1);
-    box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
-    transition: .2s linear;
-}
-
-.home .share a{
-    background: rgba(255,255,255,.2);
-    box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
-    padding:1rem 2rem;
-    margin:1rem;
-    color:#fff;
-    font-size: 2rem;
-    border-radius: 1rem;
-}
-
-.home .share a:hover{
-    background:rgba(255,255,255,.5);
-    color:#555;
-}
 
 
 .about .content h3{
@@ -404,6 +378,36 @@ header .navbar ul li a:hover{
     color:#eee;
 }
 
+.contact .share{
+    position: absolute;
+    left:50%; bottom:5rem;
+    transform: translateX(-50%);
+    display: flex;
+    padding:1rem;
+    border-radius: 1rem;
+    background: rgba(255,255,255,.1);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+    transition: .2s linear;
+}
+
+.contact .share a{
+    background: rgba(255,255,255,.2);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+    padding:1rem 2rem;
+    margin:1rem;
+    color:#fff;
+    font-size: 2rem;
+    border-radius: 1rem;
+}
+
+.contact .share a:hover{
+    background:rgba(255,255,255,.5);
+    color:#555;
+}
+
+
+
+
 /* Copyright */
 
 
@@ -442,10 +446,6 @@ header .navbar ul li a:hover{
     box-shadow: 0 0 0 .5rem rgba(255,255,255,.2),
                 0 1rem 2rem rgba(0,0,0,.4);
 }
-
-
-
-
 
 
 
