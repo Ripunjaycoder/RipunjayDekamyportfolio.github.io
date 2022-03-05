@@ -404,6 +404,27 @@ header .navbar ul li a:hover{
     color:#eee;
 }
 
+/* Copyright */
+
+
+#copyright {
+    font-size: 2em;
+    margin: 4;
+    color: #eee;
+}
+
+    #copyright li {
+        display: inline-block;
+        margin: 1em 0 0 0;
+        padding: 0;
+        box-shadow: rgb(224, 224, 220);
+        border-left: 0;
+    }
+
+        #copyright li:first-child {
+            margin-top: 0;
+        }
+
 .theme-toggler{
     background:rgba(255,255,255,.2);
     box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
